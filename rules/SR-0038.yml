@@ -1,0 +1,13 @@
+uid: SR-0038
+type: system_requirement
+status: approved
+title: Keep dev, staging and production as similar as possible
+text: >-
+  Keep development, staging and production as similar as possible so the app is designed
+  for continuous deployment, by keeping the time, personnel and tools gaps between them
+  small.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: X. Dev/prod parity — Small Gaps"

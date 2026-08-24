@@ -1,0 +1,14 @@
+uid: INT-0001
+type: intent
+status: approved
+title: A backend service is portable, scalable and disposable in the cloud
+text: >-
+  The Twelve-Factor App methodology exists so that a backend service can be built for the
+  modern cloud: with a clean contract to the operating system for maximum portability
+  across execution environments, suitable for deployment on modern cloud platforms without
+  the need for servers or systems administration, minimising divergence between
+  development and production to enable continuous deployment, and able to scale up without
+  significant changes to tooling, architecture or development practices.
+normative: false
+attrs:
+  source_ref: "Twelve-Factor App"

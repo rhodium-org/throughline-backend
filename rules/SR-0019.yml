@@ -1,0 +1,12 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: Form a release by combining the build with the deploy's config
+text: >-
+  In the release stage, combine the build with the deploy's current config to form a
+  release that is ready for immediate execution in the run stage.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: V. Build, release, run — Release Stage"

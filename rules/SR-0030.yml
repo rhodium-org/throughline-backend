@@ -1,0 +1,12 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: Treat processes as first-class citizens
+text: >-
+  Treat processes as first-class citizens, taking a cue from the unix process model for
+  running service daemons, so that the app scales out via the process model.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: VIII. Concurrency — First-Class Processes"

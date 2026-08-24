@@ -1,0 +1,13 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: Make no code distinction between local and third-party services
+text: >-
+  Make no distinction in the code between local and third-party backing services; a deploy
+  must be able to swap a local database for a third-party managed one with no changes to
+  the app's code.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: IV. Backing services — No Distinction"

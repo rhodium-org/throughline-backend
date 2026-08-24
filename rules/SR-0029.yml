@@ -1,0 +1,13 @@
+uid: SR-0029
+type: system_requirement
+status: approved
+title: Allow one app to become another app's backing service
+text: >-
+  Allow one app to become the backing service for another by providing its URL as a
+  resource handle in the consuming app's config; port binding also supports protocols
+  other than HTTP.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: VII. Port binding — App as Backing Service"

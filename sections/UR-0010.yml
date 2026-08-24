@@ -1,0 +1,11 @@
+uid: UR-0010
+type: user_requirement
+status: approved
+title: X. Dev/prod parity
+text: >-
+  Keep development, staging and production as similar as possible.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Twelve-Factor App: X. Dev/prod parity"

@@ -1,0 +1,11 @@
+uid: UR-0002
+type: user_requirement
+status: approved
+title: II. Dependencies
+text: >-
+  Explicitly declare and isolate dependencies.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Twelve-Factor App: II. Dependencies"

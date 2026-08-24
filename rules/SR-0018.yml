@@ -1,0 +1,12 @@
+uid: SR-0018
+type: system_requirement
+status: approved
+title: Produce a build by fetching dependencies and compiling
+text: >-
+  In the build stage, convert the code repo at a given commit into an executable bundle by
+  fetching vendored dependencies and compiling binaries and assets.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: V. Build, release, run — Build Stage"

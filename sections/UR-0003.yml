@@ -1,0 +1,11 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: III. Config
+text: >-
+  Store config in the environment.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Twelve-Factor App: III. Config"

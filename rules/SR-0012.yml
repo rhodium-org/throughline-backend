@@ -1,0 +1,13 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: Use granular, orthogonal environment variables
+text: >-
+  Manage config as granular environment variables that are fully orthogonal to one
+  another, set independently per deploy, rather than grouping them into named environments
+  that do not scale as deploys multiply.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: III. Config — Granular Controls"

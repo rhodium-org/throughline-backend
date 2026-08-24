@@ -1,0 +1,13 @@
+uid: SR-0037
+type: system_requirement
+status: approved
+title: Make jobs reentrant and robust against sudden death
+text: >-
+  Make jobs reentrant by wrapping work in a transaction or making operations idempotent,
+  and be robust against sudden death from hardware failure by using a queueing backend
+  that returns jobs to the queue when a client disconnects or times out.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: IX. Disposability — Robustness"

@@ -1,0 +1,11 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: VIII. Concurrency
+text: >-
+  Scale out via the process model.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Twelve-Factor App: VIII. Concurrency"

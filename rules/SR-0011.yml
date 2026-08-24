@@ -1,0 +1,13 @@
+uid: SR-0011
+type: system_requirement
+status: approved
+title: Never check credentials into revision control
+text: >-
+  Never store credentials or config as constants in the code or in checked-in config
+  files; the litmus test is that the codebase could be made open source at any moment
+  without compromising any credentials.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: III. Config — No Credentials in Code"

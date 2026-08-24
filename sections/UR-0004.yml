@@ -1,0 +1,11 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: IV. Backing services
+text: >-
+  Treat backing services as attached resources.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Twelve-Factor App: IV. Backing services"

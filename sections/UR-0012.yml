@@ -1,0 +1,11 @@
+uid: UR-0012
+type: user_requirement
+status: approved
+title: XII. Admin processes
+text: >-
+  Run admin/management tasks as one-off processes.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Twelve-Factor App: XII. Admin processes"

@@ -1,0 +1,13 @@
+uid: SR-0036
+type: system_requirement
+status: approved
+title: Shut down gracefully on SIGTERM
+text: >-
+  Shut down gracefully on receiving a SIGTERM from the process manager: a web process
+  stops listening on the service port, lets in-flight requests finish, then exits; a
+  worker process returns its current job to the queue.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: IX. Disposability — Graceful Shutdown"

@@ -1,0 +1,13 @@
+uid: SR-0041
+type: system_requirement
+status: approved
+title: Write each process's event stream unbuffered to stdout
+text: >-
+  Have each running process write its stream of events, unbuffered, to stdout; logs are
+  the aggregated, time-ordered stream of events from all processes and backing services,
+  with no fixed beginning or end.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: XI. Logs — Write to stdout"

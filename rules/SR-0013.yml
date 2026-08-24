@@ -1,0 +1,12 @@
+uid: SR-0013
+type: system_requirement
+status: approved
+title: Treat every backing service as an attached resource
+text: >-
+  Treat every backing service — datastore, message queue, SMTP, cache — as an attached
+  resource accessed via a URL or other locator and credentials stored in the config.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: IV. Backing services — Attached Resources"

@@ -1,0 +1,12 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: Count each distinct backing service as a separate resource
+text: >-
+  Count each distinct backing service as a separate resource; for example two MySQL
+  databases used for sharding are two distinct resources.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: IV. Backing services — Distinct Resources"

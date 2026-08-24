@@ -1,0 +1,14 @@
+uid: SR-0043
+type: system_requirement
+status: approved
+title: Let the execution environment capture and route the stream
+text: >-
+  Leave capture, collation and routing of the stream to the execution environment: in
+  local development the developer views it in the terminal foreground, while in staging or
+  production it is captured and routed to final destinations for viewing or archival, for
+  example via a log router such as Fluentd to a system like an ELK stack or Splunk.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: XI. Logs — Environment Routing"

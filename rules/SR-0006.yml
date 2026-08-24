@@ -1,0 +1,13 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: Isolate dependencies at execution time
+text: >-
+  Use a dependency isolation tool during execution so that no implicit dependencies leak
+  in from the surrounding system, and apply the full and explicit specification uniformly
+  to both production and development.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: II. Dependencies — Isolation"

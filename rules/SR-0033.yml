@@ -1,0 +1,13 @@
+uid: SR-0033
+type: system_requirement
+status: approved
+title: Never daemonize or write PID files
+text: >-
+  Never daemonize a process or write its own PID files; rely on the execution
+  environment's process manager to manage output streams, respond to crashes and handle
+  restarts and shutdowns.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: VIII. Concurrency — No Daemonizing"

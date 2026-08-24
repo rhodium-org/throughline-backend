@@ -1,0 +1,11 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: V. Build, release, run
+text: >-
+  Strictly separate build and run stages.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Twelve-Factor App: V. Build, release, run"

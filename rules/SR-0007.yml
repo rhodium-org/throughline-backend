@@ -1,0 +1,13 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: Do not rely on implicit system tools
+text: >-
+  Do not rely on the implicit existence of any system tools, such as shelling out to
+  ImageMagick or curl; vendor any such tool into the app so it is present in all
+  environments.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: II. Dependencies — System Tools"

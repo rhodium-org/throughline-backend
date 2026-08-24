@@ -1,0 +1,12 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: Run many deploys from the one codebase
+text: >-
+  Run every deploy — production, staging and each developer's local instance — from the
+  same codebase, though different deploys may have different versions active.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: I. Codebase — Many Deploys"

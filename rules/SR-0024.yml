@@ -1,0 +1,12 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: Do not use sticky sessions
+text: >-
+  Do not use sticky sessions to route a user's requests to the same process; store session
+  state in a datastore that offers time-expiration, such as Memcached or Redis.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: VI. Processes — No Sticky Sessions"

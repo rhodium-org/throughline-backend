@@ -1,0 +1,13 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: Give every release a unique ID and never mutate it
+text: >-
+  Give every release a unique release ID, such as a timestamp or an incrementing number;
+  releases are an append-only ledger and a release cannot be mutated once created — any
+  change must create a new release, which enables rollback.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: V. Build, release, run — Immutable Releases"

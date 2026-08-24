@@ -1,0 +1,12 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: Let a new developer build with only the runtime and manager
+text: >-
+  Ensure a new developer can set up and build the app with only the language runtime and
+  the dependency manager present, using a deterministic build command.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: II. Dependencies — Deterministic Build"

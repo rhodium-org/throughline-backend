@@ -1,0 +1,12 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: Do not share code between apps by sharing a codebase
+text: >-
+  Do not have multiple apps share the same codebase; factor shared code into libraries
+  that are included through the dependency manager.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Twelve-Factor App: I. Codebase — Shared Code"
