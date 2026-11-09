@@ -1,12 +1,13 @@
 uid: SR-0031
 type: system_requirement
-status: approved
+status: proposed
 title: Assign different work to different process types
-text: >-
-  Assign different kinds of work to different process types; for example a web process
-  handles HTTP requests while a worker process handles long-running background jobs.
+text: Assign different kinds of work to different process types; for example a web
+  process handles HTTP requests while a worker process handles long-running background
+  jobs.
+normative: true
 links:
 - target: UR-0008
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: VIII. Concurrency — Process Types"
+  source_ref: 'Twelve-Factor App: VIII. Concurrency — Process Types'

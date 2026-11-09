@@ -1,11 +1,11 @@
 uid: UR-0011
 type: user_requirement
-status: approved
+status: proposed
 title: XI. Logs
-text: >-
-  Treat logs as event streams.
+text: Treat logs as event streams.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Twelve-Factor App: XI. Logs"
+  source_ref: 'Twelve-Factor App: XI. Logs'

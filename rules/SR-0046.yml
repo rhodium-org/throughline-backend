@@ -1,13 +1,13 @@
 uid: SR-0046
 type: system_requirement
-status: approved
+status: proposed
 title: Ship admin code with the application code
-text: >-
-  Ship admin code with the application code and commit one-time scripts into the app's
-  repo to avoid synchronization problems; the methodology favours languages that provide a
-  REPL shell and make one-off scripts easy to run.
+text: Ship admin code with the application code and commit one-time scripts into
+  the app's repo to avoid synchronization problems; the methodology favours languages
+  that provide a REPL shell and make one-off scripts easy to run.
+normative: true
 links:
 - target: UR-0012
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: XII. Admin processes — Ship Admin Code"
+  source_ref: 'Twelve-Factor App: XII. Admin processes — Ship Admin Code'

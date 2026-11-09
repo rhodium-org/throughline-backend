@@ -1,13 +1,13 @@
 uid: SR-0045
 type: system_requirement
-status: approved
+status: proposed
 title: Run one-off processes in an identical environment
-text: >-
-  Run one-off admin processes in an environment identical to the regular long-running
-  processes, against a release using the same codebase and config, and applying the same
-  dependency isolation to all process types.
+text: Run one-off admin processes in an environment identical to the regular long-running
+  processes, against a release using the same codebase and config, and applying the
+  same dependency isolation to all process types.
+normative: true
 links:
 - target: UR-0012
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: XII. Admin processes — Identical Environment"
+  source_ref: 'Twelve-Factor App: XII. Admin processes — Identical Environment'

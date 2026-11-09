@@ -1,13 +1,13 @@
 uid: SR-0032
 type: system_requirement
-status: approved
+status: proposed
 title: Scale out horizontally by adding more processes
-text: >-
-  Scale a workload by running more processes of the appropriate type across multiple
-  machines; the share-nothing, horizontally partitionable nature of the processes makes
-  adding concurrency a simple and reliable operation.
+text: Scale a workload by running more processes of the appropriate type across multiple
+  machines; the share-nothing, horizontally partitionable nature of the processes
+  makes adding concurrency a simple and reliable operation.
+normative: true
 links:
 - target: UR-0008
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: VIII. Concurrency — Horizontal Scaling"
+  source_ref: 'Twelve-Factor App: VIII. Concurrency — Horizontal Scaling'

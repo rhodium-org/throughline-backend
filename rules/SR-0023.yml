@@ -1,13 +1,13 @@
 uid: SR-0023
 type: system_requirement
-status: approved
+status: proposed
 title: Never assume in-memory or on-disk state survives a request
-text: >-
-  Use memory or the filesystem only as a brief single-transaction cache, and never assume
-  anything cached in memory or on disk will be available on a future request, since a
-  restart wipes out all local state.
+text: Use memory or the filesystem only as a brief single-transaction cache, and
+  never assume anything cached in memory or on disk will be available on a future
+  request, since a restart wipes out all local state.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: VI. Processes — Transient State"
+  source_ref: 'Twelve-Factor App: VI. Processes — Transient State'

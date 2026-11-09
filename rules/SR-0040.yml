@@ -1,14 +1,14 @@
 uid: SR-0040
 type: system_requirement
-status: approved
+status: proposed
 title: Use the same type and version of each backing service everywhere
-text: >-
-  Resist the urge to use different backing services between development and production,
-  even where an adapter abstracts the differences; use the same type and version of each
-  backing service in every deploy, since small incompatibilities otherwise pass tests but
-  break in production.
+text: Resist the urge to use different backing services between development and production,
+  even where an adapter abstracts the differences; use the same type and version
+  of each backing service in every deploy, since small incompatibilities otherwise
+  pass tests but break in production.
+normative: true
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: X. Dev/prod parity — Same Backing Services"
+  source_ref: 'Twelve-Factor App: X. Dev/prod parity — Same Backing Services'

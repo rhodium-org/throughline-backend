@@ -1,13 +1,13 @@
 uid: SR-0010
 type: system_requirement
-status: approved
+status: proposed
 title: Keep a strict separation of config from code
-text: >-
-  Keep a strict separation between config and code; config varies substantially across
-  deploys while code does not, so exclude internal, non-varying application config such as
-  routing from this rule.
+text: Keep a strict separation between config and code; config varies substantially
+  across deploys while code does not, so exclude internal, non-varying application
+  config such as routing from this rule.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: III. Config — Separation from Code"
+  source_ref: 'Twelve-Factor App: III. Config — Separation from Code'

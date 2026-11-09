@@ -1,11 +1,11 @@
 uid: UR-0009
 type: user_requirement
-status: approved
+status: proposed
 title: IX. Disposability
-text: >-
-  Maximise robustness with fast startup and graceful shutdown.
+text: Maximise robustness with fast startup and graceful shutdown.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Twelve-Factor App: IX. Disposability"
+  source_ref: 'Twelve-Factor App: IX. Disposability'

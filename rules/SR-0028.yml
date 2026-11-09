@@ -1,12 +1,13 @@
 uid: SR-0028
 type: system_requirement
-status: approved
+status: proposed
 title: Let a routing layer map public requests to the bound port
-text: >-
-  Rely on a routing layer in deployment to map public-facing requests to the port-bound
-  processes; in local development the app is reachable at a localhost URL.
+text: Rely on a routing layer in deployment to map public-facing requests to the
+  port-bound processes; in local development the app is reachable at a localhost
+  URL.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: VII. Port binding — Routing Layer"
+  source_ref: 'Twelve-Factor App: VII. Port binding — Routing Layer'

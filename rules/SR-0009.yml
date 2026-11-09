@@ -1,13 +1,13 @@
 uid: SR-0009
 type: system_requirement
-status: approved
+status: proposed
 title: Store config that varies per deploy in the environment
-text: >-
-  Store everything likely to vary between deploys — resource handles, external service
-  credentials and per-deploy values such as the hostname — in environment variables, not
-  in the code.
+text: Store everything likely to vary between deploys — resource handles, external
+  service credentials and per-deploy values such as the hostname — in environment
+  variables, not in the code.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: III. Config — Store in Environment"
+  source_ref: 'Twelve-Factor App: III. Config — Store in Environment'

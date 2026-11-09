@@ -1,12 +1,12 @@
 uid: SR-0001
 type: system_requirement
-status: approved
+status: proposed
 title: Track the app in one codebase under revision control
-text: >-
-  Track the app in a single codebase under a version control system such as Git; a
-  codebase is any single repo, or any set of repos sharing a root commit.
+text: Track the app in a single codebase under a version control system such as Git;
+  a codebase is any single repo, or any set of repos sharing a root commit.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: I. Codebase — Revision Control"
+  source_ref: 'Twelve-Factor App: I. Codebase — Revision Control'

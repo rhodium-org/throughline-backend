@@ -1,12 +1,12 @@
 uid: SR-0005
 type: system_requirement
-status: approved
+status: proposed
 title: Declare all dependencies in a manifest
-text: >-
-  Declare all dependencies completely and exactly via a dependency declaration manifest;
-  never rely on the implicit existence of system-wide packages.
+text: Declare all dependencies completely and exactly via a dependency declaration
+  manifest; never rely on the implicit existence of system-wide packages.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: II. Dependencies — Explicit Declaration"
+  source_ref: 'Twelve-Factor App: II. Dependencies — Explicit Declaration'

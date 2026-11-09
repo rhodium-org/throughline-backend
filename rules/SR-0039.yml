@@ -1,13 +1,13 @@
 uid: SR-0039
 type: system_requirement
-status: approved
+status: proposed
 title: Deploy in hours and keep developers close to production
-text: >-
-  Close the time gap by making code written go into production in hours or minutes, and
-  close the personnel gap by keeping the developers who wrote the code closely involved in
-  deploying it and watching its behaviour in production.
+text: Close the time gap by making code written go into production in hours or minutes,
+  and close the personnel gap by keeping the developers who wrote the code closely
+  involved in deploying it and watching its behaviour in production.
+normative: true
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: X. Dev/prod parity — Time and Personnel"
+  source_ref: 'Twelve-Factor App: X. Dev/prod parity — Time and Personnel'

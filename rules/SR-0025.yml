@@ -1,12 +1,12 @@
 uid: SR-0025
 type: system_requirement
-status: approved
+status: proposed
 title: Compile assets during the build stage, not at run time
-text: >-
-  Compile and package assets during the build stage rather than relying on caching
+text: Compile and package assets during the build stage rather than relying on caching
   compiled assets on the filesystem at run time.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: VI. Processes — Asset Compilation"
+  source_ref: 'Twelve-Factor App: VI. Processes — Asset Compilation'

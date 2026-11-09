@@ -1,12 +1,12 @@
 uid: SR-0022
 type: system_requirement
-status: approved
+status: proposed
 title: Execute the app as stateless, share-nothing processes
-text: >-
-  Execute the app as one or more stateless, share-nothing processes; persist any data that
-  must be kept in a stateful backing service, typically a database.
+text: Execute the app as one or more stateless, share-nothing processes; persist
+  any data that must be kept in a stateful backing service, typically a database.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: VI. Processes — Stateless"
+  source_ref: 'Twelve-Factor App: VI. Processes — Stateless'

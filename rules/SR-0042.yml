@@ -1,13 +1,13 @@
 uid: SR-0042
 type: system_requirement
-status: approved
+status: proposed
 title: Never route or manage the app's own logfiles
-text: >-
-  Never have the app concern itself with routing or storage of its output stream, and do
-  not attempt to write to or manage logfiles; the app does not know or care about the
-  final destination of its stream.
+text: Never have the app concern itself with routing or storage of its output stream,
+  and do not attempt to write to or manage logfiles; the app does not know or care
+  about the final destination of its stream.
+normative: true
 links:
 - target: UR-0011
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: XI. Logs — No Logfile Management"
+  source_ref: 'Twelve-Factor App: XI. Logs — No Logfile Management'

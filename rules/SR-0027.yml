@@ -1,12 +1,12 @@
 uid: SR-0027
 type: system_requirement
-status: approved
+status: proposed
 title: Add the webserver as a declared dependency in user space
-text: >-
-  Implement port binding entirely in user space by adding a webserver library, such as
-  Tornado for Python or Jetty for Java, through the dependency declaration.
+text: Implement port binding entirely in user space by adding a webserver library,
+  such as Tornado for Python or Jetty for Java, through the dependency declaration.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: VII. Port binding — Webserver Library"
+  source_ref: 'Twelve-Factor App: VII. Port binding — Webserver Library'

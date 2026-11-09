@@ -1,13 +1,13 @@
 uid: SR-0015
 type: system_requirement
-status: approved
+status: proposed
 title: Allow resources to be attached and detached at will
-text: >-
-  Allow resources to be attached to and detached from a deploy at will; a failed database
-  can be replaced with a restored backup by changing only the config resource handle, with
-  no code change.
+text: Allow resources to be attached to and detached from a deploy at will; a failed
+  database can be replaced with a restored backup by changing only the config resource
+  handle, with no code change.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: IV. Backing services — Attach and Detach"
+  source_ref: 'Twelve-Factor App: IV. Backing services — Attach and Detach'

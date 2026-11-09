@@ -1,13 +1,13 @@
 uid: SR-0021
 type: system_requirement
-status: approved
+status: proposed
 title: Keep the run stage to as few moving parts as possible
-text: >-
-  Keep the run stage to as few moving parts as possible, since problems that prevent an
-  app from running can cause it to break in the middle of the night when no developer is
-  on hand; the build stage may be more complex.
+text: Keep the run stage to as few moving parts as possible, since problems that
+  prevent an app from running can cause it to break in the middle of the night when
+  no developer is on hand; the build stage may be more complex.
+normative: true
 links:
 - target: UR-0005
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: V. Build, release, run — Run Stage"
+  source_ref: 'Twelve-Factor App: V. Build, release, run — Run Stage'

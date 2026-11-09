@@ -1,13 +1,13 @@
 uid: SR-0034
 type: system_requirement
-status: approved
+status: proposed
 title: Make processes disposable, startable and stoppable at will
-text: >-
-  Make processes disposable, meaning they can be started or stopped at a moment's notice,
-  which facilitates fast elastic scaling, rapid deployment of changes and robustness of
-  production deploys.
+text: Make processes disposable, meaning they can be started or stopped at a moment's
+  notice, which facilitates fast elastic scaling, rapid deployment of changes and
+  robustness of production deploys.
+normative: true
 links:
 - target: UR-0009
   type: implements
 attrs:
-  source_ref: "Twelve-Factor App: IX. Disposability — Disposable Processes"
+  source_ref: 'Twelve-Factor App: IX. Disposability — Disposable Processes'
